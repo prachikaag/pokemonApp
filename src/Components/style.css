@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(224, 219, 233);
+}
+.pokeball{
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 48px;
+    margin-top: 0px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.component{
+    margin-top: 0px;
+    width: 90%;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.lcomponent, .rcomponent{
+    flex-basis: 50%;
+}
+.lcomponent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 2rem;
+}
+.card{
+    width: 300px;
+    background-color: rgb(187, 222, 135);
+    border-radius: 5%;
+    display: flex;
+    box-shadow: 0 5px 5px blueviolet;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 2%;
+}
+.card h2{
+    text-transform: capitalize;
+}
+.card img{
+    height: 125px;
+    
+}
+.pokemoninfo{
+    width: 50%;
+    padding: 3%;
+    padding-left: 15%;
+    margin: 2%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.pokemoninfo img{
+    height: auto;
+}
+.pokemoninfo h1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.abilities{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.abilities .group{
+    width: auto;
+    background-color: rgb(186, 151, 218);
+    box-shadow: 0 5px 5px blueviolet;
+    margin: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5%;
+    align-items: center;
+}
+.base-stat{
+    margin: 3%;
+    background-color: rgb(181, 210, 194);
+    box-shadow: 0 5px 5px blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.base-stat h3{
+    width: auto;
+    padding: 1px;
+}
+.btn-sec{
+    display: flex;
+    flex-direction: row;
+    min-width: 210%;
+    justify-content: space-between;
+
+}
+.btn{
+    margin: 3%;
+    background-color: rgb(199, 150, 176);
+    box-shadow: 0 5px 5px blueviolet;
+    border-radius: 5%;
+    width: 100px;
+    paddin
